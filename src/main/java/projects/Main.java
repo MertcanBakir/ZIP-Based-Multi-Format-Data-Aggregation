@@ -17,7 +17,7 @@ public class Main {
 
 
         JsonFile file = new JsonFile();
-        path = file.GenerateFile();
+        path = file.generateFile();
         fileOps.createdFiles.add(path);
 
         fileOps.zipAndCleanup();

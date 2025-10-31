@@ -10,7 +10,7 @@ public class TxtFile extends FileOps {
 
 
     //generates 10000 row txt file with malforms in 0.05 probability
-    Path generateFile() {
+    public Path generateFile() {
         String fileName = "Sales" + randomUniqueInt() + ".txt";
         Path filePath = Paths.get(fileName);
 

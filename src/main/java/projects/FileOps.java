@@ -15,7 +15,7 @@ import java.util.zip.ZipOutputStream;
 public class FileOps {
 
     // files produces by the program
-    java.util.List<Path> createdFiles = new java.util.ArrayList<>();
+    public java.util.List<Path> createdFiles = new java.util.ArrayList<>();
 
     // tracks used numbers to ensure uniqueness
     private static final Set<Integer> usedNumbers = new HashSet<>();

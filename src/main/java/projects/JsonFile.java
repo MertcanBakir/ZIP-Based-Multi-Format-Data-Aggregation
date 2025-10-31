@@ -10,7 +10,7 @@ import java.util.concurrent.ThreadLocalRandom;
 
 public class JsonFile extends FileOps {
 
-    Path GenerateFile() {
+    public Path generateFile() {
         String fileName = "Sales" + randomUniqueInt() + ".json";
         Path filePath = Paths.get(fileName);
 

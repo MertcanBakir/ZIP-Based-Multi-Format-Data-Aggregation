@@ -10,7 +10,7 @@ import java.util.concurrent.ThreadLocalRandom;
 public class CsvFile extends FileOps {
 
     //generates 10000 row txt file with malforms in 0.05 probability
-    Path generateFile() {
+    public Path generateFile() {
         String fileName = "Sales" + randomUniqueInt() + ".csv";
         Path filePath = Paths.get(fileName);
 
