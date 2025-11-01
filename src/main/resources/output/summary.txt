@@ -1,0 +1,93 @@
+amount:
+
+    min = 1,00
+
+    max = 9999,32
+
+    average = 1712,98
+
+    sum = 51142597,51
+
+
+tax:
+
+    min = 0,00
+
+    max = 0,30
+
+    average = 0,13
+
+    sum = 4004,52
+
+
+discount:
+
+    min = 0,00
+
+    max = 0,60
+
+    average = 0,27
+
+    sum = 7975,89
+
+
+revenue:
+
+    min = 9,43
+
+    max = 19999,24
+
+    average = 6724,95
+
+    sum = 200645484,53
+
+
+transactions:
+
+    min = 0,00
+
+    max = 999,00
+
+    average = 232,94
+
+    sum = 6956523,63
+
+
+customers:
+
+    min = 0,00
+
+    max = 1999,94
+
+    average = 830,08
+
+    sum = 24771381,39
+
+
+satisfaction:
+
+    min = 0,00
+
+    max = 100,00
+
+    average = 34,25
+
+    sum = 1022371,37
+
+
+score:
+
+    min = 0,00
+
+    max = 100,00
+
+    average = 49,81
+
+    sum = 1487756,88
+
+
+---- Error Summary ----
+
+Sales3298.txt: 496 malformed records
+Sales4541.json: 475 malformed records
+Sales5951.csv: 503 malformed records
